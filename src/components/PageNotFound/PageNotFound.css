@@ -1,0 +1,12 @@
+.Img_404 {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.goBkBtn {
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  padding: 3%;
+  width: 18vw;
+}

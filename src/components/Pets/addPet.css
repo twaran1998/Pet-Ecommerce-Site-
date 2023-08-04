@@ -1,0 +1,130 @@
+form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 5px 0;
+}
+
+.MuiDataGrid-row-light-grey:nth-child(2n + 1) {
+  background-color: #555a61;
+  color: #ffffff;
+}
+.MuiDataGrid-row-light-grey:nth-child(2n + 0) {
+  background-color: #c7cbd1;
+  color: #000000;
+}
+.MuiDataGrid-row-light-grey:hover {
+  background-color: #ffffff;
+  color: #36393e;
+}
+
+.textfield-spacing {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.MuiDataGrid-root {
+  flex: 1;
+}
+.select-width {
+  width: 225px;
+}
+.ServiceForm {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.Title {
+  margin-top: 30px;
+}
+
+.newServiceButton {
+  width: 200px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.NewService {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.NewService label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+  text-align: left;
+}
+.NewService input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.serviceForm {
+  margin: 10px auto 10px auto;
+}
+.serviceDTSection {
+  width: 70vw;
+  padding: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.labelLike {
+  color: #979696;
+  font-weight: bold;
+  text-align: left;
+}
+.labelLike sup{
+  color: red;
+}
+
+.dataGridContainer {
+  height: 400px;
+  width: 90%;
+  margin-left: 60px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  min-height: 200px;
+}
+
+@media (max-width: 601px) {
+  .dataGridContainer {
+    width: auto;
+    margin-left: 0;
+    margin-right: -3em;
+    min-height: 500px;
+    min-width: 300px; /* Make sure the height does not limit the visibility */
+  }
+}
